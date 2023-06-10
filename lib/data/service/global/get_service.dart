@@ -8,6 +8,7 @@ class GetService {
     dynamic response;
     try {
       // Go to DioUtils class to change settings of DIO
+      // ignore: unused_local_variable
       Response res = await DioUtils.createRequest()
           .get('https://nbu.uz/uz/exchange-rates/json/');
     } on DioError catch (e) {
